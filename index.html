@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/Loading.css">
+    <script src="./javascript/main.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-display" viewBox="0 0 16 16">
+        <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z"/>
+      </svg>
+
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+</head>
+<body>
+
+  <div class="loader">
+    <div class="inner one"></div>
+    <div class="inner two"></div>
+    <div class="inner three"></div>
+  </div>
+  
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#"><img src="./image/download.png" alt="Conference  Logo" style="height: 90px; width: 200px;"></a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html" ><b>HOME</b>
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(30, 50, 58);"">
+              <b style="font-size: 15px;">ABOUT</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./html/about_ICAIHC.html">ABOUT ICAIHC</a>
+              <a class="dropdown-item" href="./html/about_soa_and_iter.html">ABOUT SOA & ITER</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./html/speaker.html">SPEAKER</b>
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./html/committe.html"><b>COMMITTEE</b>
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(30, 50, 58);">
+                <b style="font-size: 15px;">SUBMISSION</b>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./html/registration.html">REGISTRATION</a>
+                <a class="dropdown-item" href="./html/guidlines.html">GUIDLINES</a>
+                <a class="dropdown-item" href="./html/tracks.html">TRACKS</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" target="_blank"><b>ICAIHC</b>
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="./html/contact.html" class="nav-link border border-light rounded"
+              target="_blank" style="background-color: rgb(11, 74, 156);">
+              ☏ CONTACT US
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+    
+      <!-- Full Page Intro -->
+      <div class="view" style="background-image: url('./image/1915781_922385501175235_7054243420283129271_n.jpg'); background-repeat: no-repeat; background-size: cover; ">
+    
+        <!-- Mask & flexbox options-->
+        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+    
+          <!-- Content display text annimation start -->
+          <div class="text-center white-text mx-5 wow fadeIn">
+            <h1 class="mb-4" style="padding-top: 150px;">
+              <strong style="color:yellow;font-size: 80px;" class="ml2"> ICAIHC- 2022</strong>
+            </h1>
+    
+            <h4>
+              <strong  style="color:white;font-size: 30px;" class="ml2">International Conference on Ambient Intelligence in Health Care</strong>
+            </h4>
+    
+            <p>
+              <strong style="color:rgb(253, 161, 14);font-size: 25px;">April 15-16 2022</strong>
+            </p>
+
+    
+          
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <script type="text/javascript">
+                // Wrap every letter in a span
+                var textWrapper = document.querySelector('.ml2');
+                textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+                
+                anime.timeline({loop: true})
+                  .add({
+                    targets: '.ml2 .letter',
+                    scale: [4,1],
+                    opacity: [0,1],
+                    translateZ: 0,
+                    easing: "easeOutExpo",
+                    duration: 950,
+                    delay: (el, i) => 70*i
+                  }).add({
+                    targets: '.ml2',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: "easeOutExpo",
+                    delay: 1000
+                  });
+                </script>
+    <!-- Content display text annimation End -->
+
+
+<!-- Time Display start -->
+            <table style="width: 50%;">
+                <thead>
+                  <tr>
+                    <th scope="col"><h1 id="demo" style=" color: rgb(223, 246, 16);font-size: 30PX;"></h1></th>
+                    <th scope="col" ><h1 id="demo_1" style=" color: orange;"></h1></th>
+                    <th scope="col"><h1 id="demo_2" style=" color: rgb(11, 115, 235);"></h1></th>
+                    <th scope="col"><h1 id="demo_3" style=" color: rgb(101, 243, 6);"></h1></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th><h4  style="color: white;">DAYS</h4></th>
+                    <th><h4  style="color: white;">HOURS</h4></th>
+                    <th><h4  style="color: white;">MINUTES</h4></th>
+                    <th><h4  style="color: white">SECONDS</h4></th>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <script type="text/javascript">
+                    var countDownDate = new Date("april 15, 2022 10:37:25").getTime();
+                    var x = setInterval(function() {
+                      var now = new Date().getTime();
+                      var distance = countDownDate - now;
+                      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                      document.getElementById("demo").innerHTML = days;
+                      document.getElementById("demo_1").innerHTML = hours;
+                      document.getElementById("demo_2").innerHTML = minutes;
+                      document.getElementById("demo_3").innerHTML = seconds; 
+                      if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("days").innerHTML = "EXPIRED";
+                        document.getElementById("hours").innerHTML = "EXPIRED";
+                        document.getElementById("minutes").innerHTML = "EXPIRED";
+                        document.getElementById("seconds").innerHTML = "EXPIRED";
+                      }
+                    }, 1000);
+                    
+                           </script>
+
+<!-- Time Display End -->
+
+    
+          </div>
+          <!-- Content -->
+    
+        </div>
+        <!-- Mask & flexbox options-->
+    
+      </div>
+      <!-- Full Page Intro -->
+    
+      <!--Main layout-->
+      <main>
+        <div class="container">
+    
+          <!--Section: Main info-->
+          <section class="mt-5 wow fadeIn">
+    
+            <!--Grid row-->
+            <div class="row">
+    
+              <!--Grid column-->
+              <div class="col-md-6 mb-4">
+    
+                <img src="./image/call.png" class="img-fluid z-depth-1-half" alt="">
+    
+              </div>
+              <!--Grid column-->
+    
+              <!--Grid column-->
+              <div class="col-md-6 mb-4">
+    
+                <!-- Main heading -->
+                <h1 class="h3 mb-3" style="font-size: 40px;color: blueviolet;"><b>CALL FOR PAPERS</b></h1>
+                <p>All papers must be submitted online via easychair submission portal using the following link</p>
+                <button class="button" style="background-color:rgb(255, 253, 147);border: none;color: white;
+                padding: 15px 32px;" ><a href="#">Submit</a></button>
+              </div>
+              <!--Grid column-->
+              <table class="table table-striped" style="margin-top: 50px;">
+                <tbody>
+                  <tr>
+                    <td>PAPER SUBMISSION START</td>
+                    <td>1TH SEP 2021</td>
+                  </tr>
+                  <tr>
+                    <td>PAPER SUBMISSION END</td>
+                    <td>30TH NOV 2021</td>
+                  </tr>
+                  <tr>
+                    <td>NOTIFICATION OF ACCEPTANCE</td>
+                    <td>20TH FEB 2022</td>
+                  </tr>
+                  <tr>
+                    <td>SUBMISSION DEADLINE FOR REVISED PAPERS</td>
+                    <td>15TH MAR 2022</td>
+                  </tr>
+                  <tr>
+                    <td>CONFERENCE</td>
+                    <td>15TH TO 16TH APRIL 2022</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+
+              <div class="col-md-6 mb-4" style="padding-top: 100px;">
+                <img src="./image/pub.png" class="img-fluid z-depth-1-half" alt="">
+    
+              </div>
+
+
+ <!-- image 3 logo               -->
+              <div class="col-md-6 mb-4" style="padding-top: 60px;">
+                <h1 style="text-align: center;">PUBLICATION</h1>
+                <!-- Main heading -->
+                <p>
+                    Proceedings of 2st ICAIHC 2021 will be published by Lecture notes on Computer Application (LNCA) series of Springer. 
+                </p>
+
+                <div class="row" >
+                    <div class="col-md-4">
+                      <div class="thumbnail">
+                          <img src="./image/SOA-PNG.png" alt="Lights" style="width:100px;height: 100px;" class="rounded mx-auto d-block">
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="thumbnail">
+                          <!-- <img src="./image/sco.png" alt="Nature" style="width:100px;height: 100px;" class="rounded mx-auto d-block"> -->
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="thumbnail">
+                          <!-- <img src="./image/dblp.png" alt="Fjords" style="width:100px;height: 100px;" class="rounded mx-auto d-block"> -->
+              </div>
+    </div>
+</div>
+
+ <!-- image 3 logo               -->
+
+
+          </section>
+</div>
+</main>
+    
+<div class="row"  style="padding: 100px;">
+    <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+      <img
+        src="./image/icon-1-2.png" class="rounded mx-auto d-block"
+      />
+      <h4 style="text-align: center;padding-top: 10px;"><b>Venue</b></h4>
+   <p  style="text-align: center;">Institute of Technical Education and Research <br>
+    Siksha 'O' Anusandhan (Deemed to be University) <br>
+    Bhubaneswar, India <br>
+    751030</p>
+    
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="./image/icon-2-2.png" class="rounded mx-auto d-block"
+      />
+      <h4 style="text-align: center;padding-top: 10px;"><b>Transport</b></h4>
+ <p style="text-align: center;">To be Updated soon..</p>
+    </div>
+  
+    <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+        src="./image/icon-3-2.png"  class="rounded mx-auto d-block"
+      />
+      <h4 style="text-align: center;padding-top: 10px;"><b>Contact</b></h4>
+      <p style="text-align: center;">Dr.Sarbeswar Hota: <b>9937462230</b> <br>
+        
+        Debabrata Singh: <b>8658427346</b></p>
+    </div>
+  </div>
+
+
+  <body>
+    <div class="d-flex justify-content-center align-items-center  w-100" style="height: 300px;">
+        <div  style="width: 500px; height:300px;background-color: orange;">
+        <h3 style="text-align: center;padding-top: 50px;"><b>IMPORTANT DATES</b></h3>
+        <h6 style="text-align: center;padding-top: 50px;"><b>Paper Submission Date: <b>01-09-21</b> <br>
+            Acceptance Notification: <b>10-06-21</b> <br>
+            Registration: <b>15-03-2022</b></h6>
+        </div>
+    </div
+    
+      <!--Footer-->
+      <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <h1 style="text-align: center;"><img src="./image/foologo.png" alt=""></h1>
+        <hr class="my-4">
+    
+        <!-- Social icons -->
+        <div class="pb-4">
+          <a href="#" target="_blank">
+            <img src="./social_media_image/5365678_fb_facebook_facebook logo_icon.png" alt="">
+          </a>
+    
+          <a href="#" target="_blank">
+          <img src="./social_media_image/icons8-twitter-48.png" alt="">
+          </a>
+    
+          <a href="#" target="_blank">
+            <img src="./social_media_image/5296765_camera_instagram_instagram logo_icon (1).png" alt="">
+          </a>
+    
+          <a href="#" target="_blank">
+          <img src="./social_media_image/5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png" alt="" style="height: 50px;width: 50px;">
+          </a>
+    
+          <a href="#" target="_blank">
+          <img src="./social_media_image/icons8-gmail-48.png" alt="">
+          </a>
+    
+        <!-- Social icons -->
+    
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+         <p style="color: white;"> © 2021 Copyright:
+          <a href="#" target="_blank">  ICAIHC. ALL RIGHTS RESERVED. </a></p>
+        </div>
+        <!--/.Copyright-->
+    
+      </footer>
+      <!--/.Footer-->
+</body>
+</html>
