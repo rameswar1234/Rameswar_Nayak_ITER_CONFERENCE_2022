@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>COMMITTEE Page</title>
+    
+        <link rel="stylesheet" href="../css/main.css" />
+        <link rel="stylesheet" href="../css/committe.css">
+        <script src="../javascript/main.js"></script>
+        
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-display" viewBox="0 0 16 16">
+            <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z"/>
+          </svg>
+    
+            <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+  <style>
+      /* table in Designation section */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  color:blue
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+h4{
+  color: darkgreen;
+}
+  </style> 
+  </head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#"><img src="../image/download.png" alt="Conference  Logo" style="height: 90px; width: 200px;"></a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html" ><b>HOME</b>
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(30, 50, 58);"">
+              <b style="font-size: 15px;">ABOUT</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="about_ICAIHC.html">ABOUT ICAIHC</a>
+              <a class="dropdown-item" href="about_soa_and_iter.html">ABOUT SOA & ITER</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../html/speaker.html">SPEAKER</b>
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../html/committe.html"><b>COMMITTEE</b>
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(30, 50, 58);">
+                <b style="font-size: 15px;">SUBMISSION</b>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="../html/registration.html">REGISTRATION</a>
+                <a class="dropdown-item" href="../html/guidlines.html">GUIDLINES</a>
+                <a class="dropdown-item" href="../html/tracks.html">TRACKS</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" target="_blank"><b>ICAIHC</b>
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="../html/contact.html" class="nav-link border border-light rounded"
+              target="_blank" style="background-color: rgb(11, 74, 156);">
+              ☏ CONTACT US
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+      <div class="d-flex justify-content-center align-items-center  w-100" style="height: 250px;padding-top: 150px;">
+        <div  style="width: 300px; height:80px;background-color: rgba(66, 66, 66, 0.226);">
+            <h1 style="text-align: center;font-size: 30px;padding-top: 13px;">About S'O'A & ITER</h1>
+        </div>
+    </div>
+
+
+    <div class="container">
+      <h6 style="text-align: center;">
+<i class="fa fa-home"></i>
+<a href="../index.html">Home  </a> / Committe</h6>  
+  </div>
+
+
+
+      <section class="py-5 header">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- Tabs nav -->
+                    <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link mb-3 p-3 shadow active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                            <span class="font-weight-bold small text-uppercase">Patrons</span></a>
+    
+                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                            <span class="font-weight-bold small text-uppercase">Chairs</span></a>
+    
+                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                            <span class="font-weight-bold small text-uppercase">Advisory Commite</span></a>
+    
+                        <a class="nav-link mb-3 p-3 shadow" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                            <span class="font-weight-bold small text-uppercase">Technical Commite</span></a>
+
+                         <a class="nav-link mb-3 p-3 shadow" id="v-pills-local_committe-tab" data-toggle="pill" href="#v-pills-local_committe" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                              <span class="font-weight-bold small text-uppercase">Local Organizing committe</span></a>
+                        </div>
+                </div>
+    
+    
+                <div class="col-md-9">
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <h4 style="text-align:center"><u>CHIEF PATRON</u></h4>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Designation</th>
+    </tr>
+    <tr>
+      <td> Manoj Ranjan Nayak</td>
+      <td>President, Siksha ‘O’ Anusandhan (Deemed to
+        be University), Bhubaneswar, Odisha, India</td>
+    </tr>
+    </table>
+    <h4 style="text-align:center;padding-top: 10px;"><u>PATRONS</u></h4>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Designation</th>
+      </tr>
+      <tr>
+        <td> Ashok Kumar Mohapatra,</td>
+        <td>Vice-Chancellor, Siksha ‘O’ Anusandhan
+          (Deemed to be University), Bhubaneswar,
+          Odisha, India</td>
+      </tr>
+      <tr>
+        <td> Pradipta Kumar Nanda</td>
+        <td>Pro-Vice-Chancellor, Siksha ‘O’ Anusandhan
+          (Deemed to be University), Bhubaneswar,
+          Odisha, India</td>
+      </tr>
+      </table>
+ </div>
+
+ <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+  <h4 style="text-align:center;padding-top: 10px;"><u>GENERAL CHAIR</u></h4>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Designation</th>
+    </tr>
+    <tr>
+      <td> Gourav Pandey</td>
+      <td>Icahn School of Medicine, Mount Sinai , New
+        York, USA</td>
+    </tr>
+    <tr>
+      <td> Pabitra Mitra</td>
+      <td>Indian Institute of Technology, Kharagpur,
+        India</td>
+    </tr>
+    </table>
+    
+
+    <h4 style="text-align:center;padding-top: 10px;"><u>PGPROGRAM CHAIR</u></h4>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Designation</th>
+      </tr>
+      <tr>
+        <td> Tripti Swarnkar</td>
+        <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+      </tr>
+      <tr>
+        <td> Debdoot Sheet</td>
+        <td>Indian Institute of Technology, Kharagpur,
+          India</td>
+      </tr>
+      <tr>
+        <td> Chandan Samantray</td>
+        <td>Virginia State University, USA</td>
+      </tr>
+      </table>
+
+      <h4 style="text-align:center;padding-top: 10px;"><u>PUBLICATION CHAIR</u></h4>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+        </tr>
+        <tr>
+          <td> Srikanta Patnaik</td>
+          <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+        </tr>
+        <tr>
+          <td> Manohar Mishra</td>
+          <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+        </tr>
+        <tr>
+          <td> Jayashankar Dash</td>
+          <td>IMS, Siksha ‘O’ Anusandhan, BBSR</td>
+        </tr>
+        </table>
+
+        <h4 style="text-align:center;padding-top: 10px;"><u>ORGANIZING CHAIR</u></h4>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+        </tr>
+        <tr>
+          <td> Debabrata Singh</td>
+          <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+        </tr>
+        <tr>
+          <td> Sarbeswar Hota</td>
+          <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+        </tr>
+        </table>
+        <h4 style="text-align:center;padding-top: 10px;"><u>PUBLICITY CHAIR</u></h4>
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th>Designation</th>
+                    </tr>
+                    <tr>
+                      <td> Manas Kumar Nanda</td>
+                      <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                    </tr>
+                    <tr>
+                      <td> Shushreeta Tripathy</td>
+                      <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                    </tr>
+                    </table>
+
+                    <h4 style="text-align:center;padding-top: 10px;"><u>WEBSITE CHAIRS</u></h4>
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th>Designation</th>
+                    </tr>
+                    <tr>
+                      <td> Prasanta Kumar Sahu</td>
+                      <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                    </tr>
+                    <tr>
+                      <td> Binita Kumari</td>
+                      <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                    </tr>
+                    </table>
+
+                    <h4 style="text-align:center;padding-top: 10px;"><u>REGISTRATION CHAIRS</u></h4>
+                    <table>
+                      <tr>
+                        <th>Name</th>
+                        <th>Designation</th>
+                      </tr>
+                      <tr>
+                        <td> Sawati Mohapatra</td>
+                        <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                      </tr>
+                      <tr>
+                        <td> Mamata Nayak</td>
+                        <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                      </tr>
+                    </table>
+
+
+
+                    <h4 style="text-align:center;padding-top: 10px;"><u>FINANCE CHAIR</u></h4>
+                    <table>
+                      <tr>
+                        <th>Name</th>
+                        <th>Designation</th>
+                      </tr>
+                      <tr>
+                        <td> Badrinarayan Sahu</td>
+                        <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                      </tr>
+                      <tr>
+                        <td>Manas Kumar Malik</td>
+                        <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                      </tr>
+                      </table> 
+
+
+                      <h4 style="text-align:center;padding-top: 10px;"><u>SPONSORSHIP CHAIRS</u></h4>
+                      <table>
+                        <tr>
+                          <th>Name</th>
+                          <th>Designation</th>
+                        </tr>
+                        <tr>
+                          <td> Sarbeswar Hota</td>
+                          <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                        </tr>
+                        <tr>
+                          <td> Sujit Dash</td>
+                          <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                        </tr>
+                        </table> 
+</div>
+               
+                        <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                          <h4 style="text-align:center;padding-top: 10px;"><u>INTERNATIONAL ADVISORY COMMITTEE</u></h4>
+                          <table>
+                            <tr>
+                              <th>Name</th>
+                              <th>Designation</th>
+                            </tr>
+                            <tr>
+                              <td> Damodar Acharya (Chair)</td>
+                              <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                            </tr>
+                            <tr>
+                              <td> Asish Ghosh</td>
+                              <td>ISI Kolkata, India</td>
+                            </tr>
+                            <tr>
+                              <td> A. Abraham</td>
+                              <td>Machine Intelligence Research Labs, USA</td>
+                            </tr>
+                            <tr>
+                              <td> Akshay Kumar Rathore</td>
+                              <td>Concordia University, Chicago</td>
+                            </tr>
+                            <tr>
+                              <td> Anil Lamba</td>
+                              <td>Charisma University, USA</td>
+                            </tr>
+                            <tr>
+                              <td> Danilo Pelusi</td>
+                              <td>University of Teramo, Italy</td>
+                            </tr>
+                            <tr>
+                              <td> Prasanta Mohapatra</td>
+                              <td>SUniversity of California, Davis</td>
+                            </tr>
+                            <tr>
+                              <td> R.C Bansal</td>
+                              <td>College of Engineering, University of Sharjah</td>
+                            </tr>
+                            <tr>
+                              <td> Dac-Nhuong Le</td>
+                              <td>Haiphong University, Haiphong, Vietnam.</td>
+                            </tr>
+                            <tr>
+                              <td> Daksh Agarwal</td>
+                              <td>University of Pennsylvania, Philadelphia, USA</td>
+                            </tr>
+                            </table>
+              
+                            <h4 style="text-align:center;padding-top: 10px;"><u>NATIONAL ADVISORY COMMITTEE</u></h4>
+                            <table>
+                              <tr>
+                                <th>Name</th>
+                                <th>Designation</th>
+                              </tr>
+                              <tr>
+                                <td> Bibhudendu Pati(Chair)</td>
+                                <td>R. D.Womens University, BBSR,Odisha, India</td>
+                              </tr>
+                              <tr>
+                                <td> Asish Ghosh</td>
+                                <td>ISI Kolkata, India</td>
+                              </tr>
+                              <tr>
+                                <td> S.R. Samantray</td>
+                                <td>IIT Bhubaneswar, India</td>
+                              </tr>
+                              <tr>
+                                <td> Anjali Mohapatra</td>
+                                <td>IIT Bhubaneswar, India</td>
+                              </tr>
+                              <tr>
+                                <td> Trilochan Panigrah</td>
+                                <td>NIT Goa, India</td>
+                              </tr>
+                              <tr>
+                                <td> Tanmoy Kumar Chakrabarty</td>
+                                <td> Tanmoy Kumar Chakrabarty</td>
+                              </tr>
+                              <tr>
+                                <td> Bhawani Sankar Panda</td>
+                                <td>IIT Delhi, India</td>
+                              </tr>
+                              <tr>
+                                <td> Sakty Prasad Das</td>
+                                <td>Director, SVNIRTAR Olatpur, Odisha, India</td>
+                              </tr>
+                              <tr>
+                                <td> Bibhudatta Sahoo</td>
+                                <td>National Institute of Technology, Rourkela</td>
+                              </tr>
+                              <tr>
+                                <td> Susmita Ghosh</td>
+                                <td>Jadavpur University, India</td>
+                              </tr>
+                              <tr>
+                                <td> Ashok Kumar Hota</td>
+                                <td>Deputy Director General, NIC, Chhattisgarh</td>
+                              </tr>
+                              <tr>
+                                <td> Daksh Agarwal</td>
+                                <td>University of Pennsylvania, Philadelphia, USA</td>
+                              </tr>
+                              <tr>
+                                <td> Debahuti Mishra</td>
+                                <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                              </tr>
+                              <tr>
+                                <td> Ajit Kumar Nayak</td>
+                                <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                              </tr>
+                              <tr>
+                                <td> Binod Kumar Patnaik</td>
+                                <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                              </tr>
+                              <tr>
+                                <td>Chabi Rani Panigrahi</td>
+                                <td>SiR. D.Womens University, BBSR,Odisha, India</td>
+                              </tr>
+                              <tr>
+                                <td> Bhawani Sankar Sinha</td>
+                                <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                              </tr>
+                              </table>  
+                        </div>
+                        
+                        <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                          <h4 style="text-align:center;padding-top: 10px;"><u>TECHNICAL PROGRAMME COMMITTEE (TPC)</u></h4>
+                          <table>
+                            <tr>
+                              <th>Name</th>
+                              <th>Designation</th>
+                            </tr>
+                            <tr>
+                              <td> Biswa Mohan Acharya(Chair)</td>
+                              <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                            </tr>
+                            <tr>
+                              <td> Srikanta Patnaik</td>
+                              <td>Siksha ‘O’ Anusandhan, BBSR, Odisha, India</td>
+                            </tr>
+                            <tr>
+                              <td> SK Hafizul Islam</td>
+                              <td>Machine Intelligence Research Labs, USA</td>
+                            </tr>
+                            <tr>
+                              <td> Shakti Ketan Prusty</td>
+                              <td>Siksha ‘O’ Anusandhan, Bhubaneswar, India</td>
+                            </tr>
+                            <tr>
+                              <td> Sachi Nanda Mohanty</td>
+                              <td>College of Engineering, Pune, India</td>
+                            </tr>
+                            <tr>
+                              <td> Niladri Bihari Mohanty</td>
+                              <td>Scientist C, NIC, Bhubaneswar, India</td>
+                            </tr>
+                            <tr>
+                              <td> Debabrata Samanta</td>
+                              <td>CHRIST University, Bangalore, India</td>
+                            </tr>
+                            <tr>
+                              <td> Aparna Rawal</td>
+                              <td>Bhillai institute of technology, CG India</td>
+                            </tr>
+                            <tr>
+                              <td> Ani Thomas</td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>Sunita Soni</td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>Kavita </td>
+                            </tr>
+                            <tr>
+                              <td>Muskan </td>
+                            </tr>
+                            <tr>
+                              <td>Muskan </td>
+                            </tr>
+                            <tr>
+                              <td>David Martin Corio</td>
+                            </tr>
+                            <tr>
+                              <td>Prof. Mohammad Yamin</td>
+                            </tr>
+                            </table>
+          
+                        </div>
+
+                        <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-local_committe" role="tabpanel" aria-labelledby="v-pills-local_committe-tab">
+                          <!-- <h4 class="font-italic mb-4">Confirm booking</h4> -->
+                          <!-- data updated -->
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+      <!--Footer-->
+ <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <h1 style="text-align: center;"><img src="../image/foologo.png" alt=""></h1>
+        <hr class="my-4">
+    
+        <!-- Social icons -->
+        <div class="pb-4">
+          <a href="" target="_blank">
+            <img src="../social_media_image/5365678_fb_facebook_facebook logo_icon.png" alt="">
+          </a>
+    
+          <a href="" target="_blank">
+          <img src="../social_media_image/icons8-twitter-48.png" alt="">
+          </a>
+    
+          <a href="" target="_blank">
+            <img src="../social_media_image/5296765_camera_instagram_instagram logo_icon (1).png" alt="">
+          </a>
+    
+          <a href="" target="_blank">
+          <img src="../social_media_image/5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png" alt="" style="height: 50px;width: 50px;">
+          </a>
+    
+          <a href="" target="_blank">
+          <img src="../social_media_image/icons8-gmail-48.png" alt="">
+          </a>
+    
+        <!-- Social icons -->
+    
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+         <p style="color: white;"> © 2021 Copyright:
+          <a href="" target="_blank">  ICAIHC. ALL RIGHTS RESERVED. </a></p>
+        </div>
+        <!--/.Copyright-->
+    
+      </footer>
+      <!--/.Footer-->
+</body>
+</html>
